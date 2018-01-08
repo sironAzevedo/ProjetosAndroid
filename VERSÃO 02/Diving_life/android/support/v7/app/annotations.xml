@@ -1,0 +1,6 @@
+<root>
+    <item name='android.support.v7.app.ActionBarActivity'>
+        <annotation name='java.lang.annotation.Deprecated' />
+        <annotation name='org.jetbrains.annotations.Nullable' />
+    </item>
+</root>

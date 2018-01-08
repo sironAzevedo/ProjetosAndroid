@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.sironazevedo.diving_life.CadastroNaufragio">
+
+    <item
+        android:id="@+id/mni_acao1"
+        android:icon="@drawable/ic_novo"
+        android:title="@string/lbl_salvar"
+        android:showAsAction="always" />
+
+    <item
+        android:id="@+id/mni_acao2"
+        android:icon="@drawable/lixeira_32x32"
+        android:title="@string/lbl_excluir"
+        android:visible="false"
+        android:showAsAction="ifRoom|withText"/>
+    <item
+        android:id="@+id/mni_acao3"
+        android:icon="@drawable/mapa_32x32"
+        android:title="@string/lbl_mapa"
+        android:visible="false"
+        android:showAsAction="ifRoom|withText"/>
+</menu>
